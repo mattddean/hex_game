@@ -1,0 +1,171 @@
+<meta charset="utf-8" lang="en">
+
+                    **P01_Hex**
+
+General
+========
+
+For each of your team's implementations, explain the following (where appropriate and applicable):
+
+- details on calling conventions, input and output data formats, limitations, bugs, and special features.
+- negative aspects of your program (limitations, known bugs)
+- positive aspects (extensions, special features)
+- describe your choice of modularization (abstractions), data structures, and algorithms
+- explain anything you did that is likely to be different from what other students may have done
+- justify any design decisions for which the rationale isn't immediately clear
+
+Feel free to modify the structure of this `readme.html` file to fit the current assignment and to fit how you wish to present your findings.
+
+
+
+Submission
+-----------
+
+Create a zip file that contains all of your code, this `readme.html` document, and any additional files of evidence (ex: screenshots, scenes).
+
+If helpful, use folders to divide up the subparts of your submission.
+
+
+
+Student Info
+=============
+
+Your name:
+
+Operating system:
+
+Lab computer or your own computer:
+
+Approx hours to complete assignment:
+
+Partner's name (if applicable):
+
+TA's or Tutor's name (if received help):
+
+Did you receive help from your instructor?
+
+
+
+Assignment Details
+===================
+
+
+Describe how you implemented HexBoard.java.
+How did you check whether the game was won by a player?
+
+<!-- Details and screenshots here -->
+
+
+
+Quick-Find Union-Find
+---------------------
+
+Using `HexBoard` with `QuickFindUF`, give a formula (using tilde notation) for the running time (in seconds) of `HexBoardStats.java` as a function of both $N$ and $T$.
+
+Model the running time as a power law and be sure to give both the coefficient and exponent of the leading term.
+Your coefficients should be based on empirical data and rounded to two significant digits, for example:
+
+$$\sim 5.3*10^{-8} * N^{5.0} T^{1.5} $$
+
+(keep $T$ constant)
+
+$N$ | time (seconds)
+----|---------------
+... |               
+... |               
+... |               
+... |               
+... |               
+
+
+(keep $N$ constant)
+
+$T$ | time (seconds)
+----|---------------
+... |               
+... |               
+... |               
+... |               
+... |               
+
+running time as a function of $N$ and $T$:  $\sim NT$ <!-- replace NT with your answer -->
+
+
+
+Weighted Quick-Union Union-Find
+-------------------------------
+
+Repeat the steps of the previous section for `WeightedQuickUnionUF`.
+
+(keep $T$ constant)
+
+$N$ | time (seconds)
+----|---------------
+... |               
+... |               
+... |               
+... |               
+... |               
+
+
+(keep $N$ constant)
+
+$T$ | time (seconds)
+----|---------------
+... |               
+... |               
+... |               
+... |               
+... |               
+
+running time as a function of $N$ and $T$:  $\sim NT$ <!-- replace NT with your answer -->
+
+
+
+Hex Board Statistics
+--------------------
+
+Run `HexBoardStats` with `N0 = 2`, `N1 = 15`, and `T = 100000`.
+
+What patterns do you see emerge from probability estimates?
+
+<!-- Details and screenshots here -->
+
+
+
+Known bugs / limitations
+-------------------------
+
+<!-- Details and screenshots here -->
+
+
+Reflection
+===========
+
+Describe whatever help (if any) that you received.
+Don't include readings, lectures, but do include any help from people (including course staff, lab TAs, classmates, and friends)  and attribute them by name.
+
+<!-- Details and screenshots here -->
+
+
+Describe any serious problems you encountered.
+
+<!-- Details and screenshots here -->
+
+
+List any other comments here.
+Feel free to provide any feedback on how much you learned from doing the assignment, and whether you enjoyed doing it.
+
+<!-- Details and screenshots here -->
+
+
+
+
+
+<!--
+
+Leave the following, as this will format your text above to look nice in a wed browser.
+
+-->
+
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible");</script>
